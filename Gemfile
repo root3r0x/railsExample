@@ -42,6 +42,7 @@ group :development, :test do
   #Adds rspec, faker, factory girls
   gem 'rspec-rails', '~> 3.7', '>= 3.7.2' #rails g rspec:install
   gem 'factory_girl_rails', '~> 4.9'
+  #gem 'factory_bot_rails', '~> 4.10'
   gem 'faker', '~> 1.9', '>= 1.9.1'
   #Database cleaner
   gem 'database_cleaner', '~> 1.7'
